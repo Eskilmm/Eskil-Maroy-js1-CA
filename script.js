@@ -9,7 +9,7 @@ fetch("https://fakestoreapi.com/products")
     completedata.map((values)=>{
 
 
-        data2=`
+        data2+=`
         <div id="slot">
             <div class="slot">
             <h2 class="title">${values.title}</h2>
@@ -25,4 +25,5 @@ fetch("https://fakestoreapi.com/products")
 })
 .catch((err)=>{
     console.log(err);
+    document.write(err.message);
 })

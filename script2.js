@@ -7,7 +7,7 @@ fetch("https://fakestoreapi.com/products")
     console.log(completedata);
     let data1 = "";
     completedata.map((values)=>{
-        data1+=`
+        data1=`
         <div id= "index">
         <div class "index-yes">
         <h1 class="title">${values.title}>
@@ -19,5 +19,6 @@ document.getElementById("index").innerHTML= data1
 })
 .catch((err)=>{
     console.log(err)
+    document.write(err.message);
 })
 
