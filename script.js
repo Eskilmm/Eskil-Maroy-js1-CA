@@ -1,4 +1,4 @@
-fetch("https://api-football-v1.p.rapidapi.com/v3/leagues", {
+fetch("https://api-football-v1.p.rapidapi.com/v3/timezone", {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "api-football-v1.p.rapidapi.com",
@@ -6,9 +6,8 @@ fetch("https://api-football-v1.p.rapidapi.com/v3/leagues", {
 	}
 })
 .then(response => {
-    console.log(response);
+	console.log(response);
 })
-.catch(err =>{
-    console.log(err);
-})
-
+.catch(err => {
+	console.error(err);
+});
