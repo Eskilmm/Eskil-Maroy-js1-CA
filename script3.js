@@ -11,7 +11,7 @@ fetch("https://fakestoreapi.com/products")
 
         data2=`
         <div id="slot">
-            <div class="slot">
+            <div class="slot2">
             <h2 class="title">${values.title}</h2>
             <img src=${values.image} alt="img" class="images">
             <p>${values.description}</p>
