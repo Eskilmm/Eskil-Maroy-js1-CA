@@ -8,8 +8,10 @@ fetch("https://fakestoreapi.com/products")
     let data1 = "";
     completedata.map((values)=>{
         data1=`
-        <div id= index>
+        <div id= "index">
+        <div class "index-yes">
         <h1 class="title">${values.title}>
+        </div>
         </div>`
 
 })

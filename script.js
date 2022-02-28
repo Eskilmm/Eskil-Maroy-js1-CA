@@ -17,6 +17,7 @@ fetch("https://fakestoreapi.com/products")
             <p>${values.description}</p>
             <p class="category">${values.category}</p>
             <p class="price">${values.price}</p>
+        </div>
         </div>`
     })
     document.getElementById("slot").innerHTML= data2
