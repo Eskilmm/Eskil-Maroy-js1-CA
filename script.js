@@ -17,7 +17,7 @@ fetch("https://fakestoreapi.com/products")
             <p class="price">${values.price}</p>
         </div>`
     })
-    document.getElementById("cards").innerHTML= data1
+    document.getElementById("slot").innerHTML= data1
 
 })
 .catch((err)=>{
