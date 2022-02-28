@@ -5,19 +5,21 @@ fetch("https://fakestoreapi.com/products")
 })
 .then ((completedata)=> {
     console.log(completedata);
-    let data1="";
+    let data2="";
     completedata.map((values)=>{
-        data1=`
+
+
+        data2=`
         <div id="slot">
             <div class="slot">
-            <h1 class="title">${values.title}</h1>
+            <h2 class="title">${values.title}</h2>
             <img src=${values.image} alt="img" class="images">
             <p>${values.description}</p>
             <p class="category">${values.category}</p>
             <p class="price">${values.price}</p>
         </div>`
     })
-    document.getElementById("slot").innerHTML= data1
+    document.getElementById("slot").innerHTML= data2
 
 })
 .catch((err)=>{
