@@ -19,6 +19,6 @@ document.getElementById("index").innerHTML= data1
 })
 .catch((err)=>{
     console.log(err)
-    document.write(err.message);
+    
 })
 
