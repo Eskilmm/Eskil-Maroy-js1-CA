@@ -20,7 +20,7 @@ fetch("https://fakestoreapi.com/products")
         </div>
         </div>`
     })
-    document.getElementById("slot").innerHTML= data2
+    document.getElementById("slot2").innerHTML= data2
 
 })
 .catch((err)=>{
